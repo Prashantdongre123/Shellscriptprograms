@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-function checkpalindromo()
+function checkpalindrome()
 {
 sum=0
 temp=0
@@ -18,7 +18,7 @@ else
 	echo "string is not palindrome"
 fi
 }
-read -p "enter a no to palindrome" number
+read -p "enter a no to palindrome" string
 res1="$( checkpalinndrome $(($string)) )"
 if [ $res1 -eq $res2 ]
 then
